@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/b1171da3e4.js" crossorigin="anonymous"></script>
+  <title>Super ToDo List</title>
+</head>
+
+<body id="page">
+  <!-- :speak_no_evil:
+
+  <i class="fas fa-thumbs-up fa-5x"></i> -->
+
+
+  <div class="todowrapper">
+    <div id="todolist">
+      <div id="todolistform">
+        <input type="color" id="head" name="head" class="colorpicker" value="#9688cf">
+        <h2>Мой ТуДу лист :)</h2>
+        <div class="input__data">
+          <select class="" id="listIconItem">
+            <option value="0" selected>&#128512;</option>
+            <option value="1">&#128579;</option>
+            <option value="2">&#129488;</option>
+            <option value="3">&#129326;</option>
+            <option value="4">🙈</option>
+          </select>
+          <input type="text" id="myInput" placeholder="Введите текст">
+          <span class="addBtn">Добавить</span>
+        </div>
+        <!-- <div class="sorting">
+
+          <span class="sortby__span">Сортировать по:</span>
+
+          <select name="sortby">
+            <option>Дате добавления</option>
+            <option>Важности</option>
+          </select>
+          <fieldset id="sorting">
+            <input type="radio" name="sortfor" id="increase" value="increase" checked><label for="increase">возрастанию</label>
+            <input type="radio" name="sortfor" id="reduce" value="reduce"><label for="reduce">убыванию</label>
+          </fieldset>
+
+        </div> -->
+
+      </div>
+
+      <div id="list"></div>
+    </div>
+  </div>
+
+  <script src="/todolist.js"></script>
+
+</body>
+
+</html>
